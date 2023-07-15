@@ -51,10 +51,30 @@ cursor: pointer;
 }
 
 form button:hover{
-    background-color: lawngreen;
+    background-color: rgb(39, 228, 102);
 
 }
 
 input:focus,textarea:focus{
     outline-color: rgb(2, 88, 31);
+}
+
+.sucess-menssagem{
+    background-color:  rgb(52, 143, 83);
+    color: aliceblue;
+    font-weight: bolder;
+    width: 60%;
+    margin-top: 10px;
+    padding: 7px 0;
+    display: none;
+}
+
+.erro-menssagem{
+ background-color: red;
+ color: floralwhite ;
+ padding: 8px ;
+ width: 60%;
+ display: none;
+ margin-bottom: 8px;
+
 }
