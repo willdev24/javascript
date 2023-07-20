@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+        <h1> soma dos numeros </h1>
+    <form>
+          <input type="number" name="txtn1" id="txtn1">
+          <input type="number" name="txtn2" id="txtn2">
+          <input type="button" value="somar" onclick="somar()">          
+          <div id="res">resultado</div>
+    </form>
+  <script>
+   
+      var txn1 = document.getElementById('txtn1')
+      var txn2 = document.getElementById('txtn2')
+      
+function somar(){
+    
+      var n1 = Number(txn1.value)
+      var n2 = Number(txn2.value)
+      var s = n1 + n2
+
+      var recebe = document.getElementById('res')
+      recebe.innerText = ` RESULTADO : ${n1} + ${n2} = ${s}`
+
+}
+
+
+
+ </script>
+ 
+</body>
+</html>
