@@ -6,6 +6,29 @@
 
     }
 
+    body{
+        margin-left: 40px;
+    }
+
+header{
+
+    margin-top: -40px;
+    padding: 30px 10px;
+    height: 100px;
+    width: 240px;
+    margin-left: 11px;
+}
+
+header{
+color: aliceblue;
+font-size: 30px;
+background-color: rgb(7, 7, 7);
+
+
+}
+
+
+
     .numerico{
    background-color: darkgreen;
 
@@ -14,15 +37,13 @@
     .numerico{
     margin-top: 160px ;
     padding:60px 0px;
-    width: 300px;
+    width: 260px;
     height: 500px;
     
-
-
     }
 
     .container{
-        padding: 60px 10px;
+        padding: 0px 10px;
         width: 0px;
        
     }
@@ -53,19 +74,27 @@
 
        width: 80px; 
       /* background-color: rgb(12, 12, 85);*/
-       padding: 60px 10px;
+       padding: 120px 10px;
        margin-top:-370px ;
-       margin-left: 225px;
-     
-
+       margin-left: 193px;
+    
     }
 
 
    .operacoes input{
      
     padding: 13.5px 0px;
-    width: 60px;
+    width: 50px;
 
+   }
+
+   #virgula{
+    padding: 30px 24px;
+
+   }
+
+   #resultado{
+    height: 97px;
    }
 
    

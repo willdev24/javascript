@@ -16,3 +16,11 @@ d.style.background = 'green'
 d.innerText = 'estou aguardando...' */
 
 var e = document.querySelector('div#msg').style.color = 'pink'
+
+/*document.write(p1.innerText = 'ola')
+
+*/
+
+var testewrite = document.getElementById('msg')
+
+document.write(testewrite.innerText= 'dominei pohha')

@@ -13,18 +13,25 @@
     
     <section class="numerico">
 
+<header id="valorr">
+    resultado
+</header>
+
+
 <div class="container">
-    <form>
-     <input type="button" id="nove" name="nove" value="9">       
-     <input type="button" id="oito" name="oito" value="8">   
-     <input type="button" id="sete" name="sete" value="7">     
-     <input type="button" id="seis" name="seis" value="6">     
-     <input type="button" id="cinco" name="cinco" value="5">     
-     <input type="button" id="quatro" name="quatro" value="4">     
-     <input type="button" id="tres" name="tres" value="3">     
-     <input type="button" id="dois" name="dois" value="2">     
-     <input type="button" id="um" name="um" value="1">     
-     <input type="button" id="zero" name="zero" value="0">               
+    <form >
+     <input type="button" id="nove" name="nove" value="9" onclick="mudar09()">       
+     <input type="button" id="oito" name="oito" value="8" onclick="mudar08()">   
+     <input type="button" id="sete" name="sete" value="7" onclick="mudar07()">     
+     <input type="button" id="seis" name="seis" value="6" onclick="mudar06()">     
+     <input type="button" id="cinco" name="cinco" value="5" onclick="mudar05()">     
+     <input type="button" id="quatro" name="quatro" value="4" onclick="mudar04()">     
+     <input type="button" id="tres" name="tres" value="3" onclick="mudar03()">     
+     <input type="button" id="dois" name="dois" value="2" onclick="mudar02()">     
+     <input type="button" id="um" name="um" value="1" onclick="mudar01()">     
+     <input type="button" id="zero" name="zero" value="0" onclick="mudar0()"> 
+     <input type="button" id="virgula" name="virgula" value="," onclick="mudar()">               
+    
     </form>
 </div>
 
@@ -33,13 +40,18 @@
        <input type="button"  value="+" onclick="somar()" ><br>
        <input type="button"  value="-" onclick="subtrair()"><br>
        <input type="button"  value="x" onclick="multiplicar()"><br>
-       <input type="button"  value="/" onclick="dividir()">
+       <input type="button"  value="/" onclick="dividir()"><br>
+       <input id="resultado" type="button" value="=" onclick=" resu()"> 
    </form>
 </div>
 
  
     </section>
 
+
+    <script src="calc.js">
+
+    </script>
 
 
     
