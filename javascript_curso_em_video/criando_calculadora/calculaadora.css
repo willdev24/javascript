@@ -8,6 +8,7 @@
 
     body{
         margin-left: 40px;
+        background-color: indigo;
     }
 
 header{
@@ -23,6 +24,8 @@ header{
 color: aliceblue;
 font-size: 30px;
 background-color: rgb(7, 7, 7);
+border-style: outset;
+border-radius: 6px;
 
 
 }
@@ -30,8 +33,8 @@ background-color: rgb(7, 7, 7);
 
 
     .numerico{
-   background-color: darkgreen;
-
+   background-color: rgb(150, 72, 150);
+   border-radius: 6px;
     }
 
     .numerico{
@@ -61,12 +64,13 @@ background-color: rgb(7, 7, 7);
       padding: 25px 20px;   
       margin-top: 4px;
       font-size: 30px;
+      border-radius: 6px;
 
     } 
 
     #zero{
         padding: 30px 51.5px;
-
+        border-radius: 6px;
 
     }
     
@@ -83,8 +87,9 @@ background-color: rgb(7, 7, 7);
 
    .operacoes input{
      
-    padding: 13.5px 0px;
+    padding: 10.5px 0px;
     width: 50px;
+    border-radius: 6px;
 
    }
 
@@ -94,11 +99,7 @@ background-color: rgb(7, 7, 7);
    }
 
    #resultado{
-    height: 97px;
+    height: 60px;
    }
-
-   
-
-
-    
+ 
     
