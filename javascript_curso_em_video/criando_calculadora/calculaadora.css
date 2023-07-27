@@ -7,8 +7,13 @@
     }
 
     body{
-        margin-left: 40px;
-        background-color: indigo;
+        margin-left: 400px;
+        background-image: linear-gradient(
+         red,
+        
+
+        );
+
     }
 
 header{

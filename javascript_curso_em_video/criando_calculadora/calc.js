@@ -14,7 +14,7 @@ var  h = document.getElementById('sete')
         a.style.color = 'pink'
         var val = document.getElementById('valorr').innerHTML;
     
-        document.getElementById('valorr').innerHTML = val + num
+        document.getElementById('valorr').innerHTML = val  + num
 
 
     }
@@ -45,3 +45,5 @@ function resulte(){
 
 
 }*/
+
+console.log('tudo osky')
