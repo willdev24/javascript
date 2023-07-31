@@ -13,6 +13,7 @@ main h1{ text-align: center;
   margin-top: 60px;
   color: aliceblue;
   font-size: 50px;
+  
 
 }.container {
 
@@ -27,7 +28,7 @@ main h1{ text-align: center;
 
 #relogio{
   background-color: rgb(219, 219, 216);
-  
+  box-shadow: 5px 5px 10px black;
 }
 
 #relogio{
@@ -50,6 +51,7 @@ main h1{ text-align: center;
   
   font-size: 32px;
 }
+
 
 
 
