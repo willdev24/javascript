@@ -34,7 +34,7 @@ main h1{ text-align: center;
 #relogio{
   width: 45%;
   padding: 100px 0px;
-  height: 450px;
+  height: 300px;
   text-align: center;
   margin-left: 350px;
   border-radius: 10px;
@@ -42,13 +42,12 @@ main h1{ text-align: center;
 }
 
 #relogio img{
-  height: 300px;
+  height: 200px;
   border-radius: 50%;
   width: 50%;
   
-
-
-}.container {
+}
+.container {
   padding: 30px 0;
   
   font-size: 22px;
@@ -61,14 +60,35 @@ font-size: 20px;
 padding: 20px 10px;
 height: 150px;
 width: 85%;
-margin-left: -10px;
+margin-left: -60px;
 margin-top: -60px;
 }
 
 #verificando{
-padding: 12px 10px;
-margin-left: -200px;
+padding: 10px 10px;
+margin-left: -180px;
+margin-top: 5px;
+font-size: 15px;
 }
 
+#data{
+    width: 29%;
+    padding: 08px 10px;
+    font-size: 15px;
+   
+
+}
+
+#genero{
+  margin-left: 40px;
 
 
+}
+
+.foto{
+
+  padding: 20px 10px;
+  font-size: 23px;
+  margin-top: 40px;
+
+}
