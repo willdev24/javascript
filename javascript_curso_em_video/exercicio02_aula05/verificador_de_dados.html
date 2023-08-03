@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>verificador de idade</title>
     <link rel="stylesheet" href="vrifiq02.css">
 </head>
 <body>
     <main>
-        <h1 id="hora"> verificador de dados </h1>
+        <h1 id="hora"> verificador de idade </h1>
       
         <section id="relogio">
           <form >
             <label id="genero" for="data">data de nascimento</label>
-            <input id="data" type="date" ><br>
+            <input id="data" type="number" ><br>
             <label for="sexo">genero :</label>
-            <input id="sexo" type="radio" name="favorit"> <label for="sexo">masculino</label>
+            <input id="sexo" type="radio" name="favorit" checked> <label for="sexo">masculino</label>
             <input id="sexo" type="radio" name="favorit"><label for="sexo">feminino</label>
-           <br> <input type="button" id="verificando" value="verificar" onclick="resposta()">
+           
+            <br> <input type="button" id="verificando" value="verificar" onclick="resposta()">
           </form>
 
             <div class="foto"> 

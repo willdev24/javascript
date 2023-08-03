@@ -73,16 +73,17 @@ font-size: 15px;
 
 #data{
     width: 29%;
-    padding: 08px 10px;
-    font-size: 15px;
+    padding: 4px 10px;
+    font-size: 12px;
+    
    
 
 }
 
 #genero{
   margin-left: 40px;
-
-
+ padding: 16px 0px;
+ font-size: 20px;
 }
 
 .foto{
@@ -91,4 +92,8 @@ font-size: 15px;
   font-size: 23px;
   margin-top: 40px;
 
+}
+
+#sexo{
+  margin-top: 20px;
 }
