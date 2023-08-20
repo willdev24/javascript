@@ -24,28 +24,29 @@ function resposta(){
         img.setAttribute('id','fotos')
         
         var mod = document.getElementById('relogio')
-        
+        var fundo = document.body
         
        if(fsex[0].checked){
            genero = 'homem'
-            
+           mod.style.height = 500 + 'px' 
           if(idade < 10){
-                img.setAttribute('src','idoso.png')           
+                fundo.style.background = 'blue'
+                img.setAttribute('src','cri_homem.png')           
                 res.innerHTML = `crianca ${genero} de ${idade} anos `
                 res.appendChild(img)
 
            }else if(idade > 10 && idade < 18){
-                img.setAttribute('src','idoso.png')
+                img.setAttribute('src','adolecente_homem.png')
                 res.innerHTML = `adolescete ${genero} de ${idade} anos `
                 res.appendChild(img)
             
            }else if(idade > 17 && idade < 50){
-                img.setAttribute('src','cri_homem.png')
+                img.setAttribute('src','adulto_homem.png')
                 res.innerHTML = `adulto ${genero} de ${idade} anos `
                 res.appendChild(img)
         
         }else{
-            img.setAttribute('src','cri_homem.png')
+            img.setAttribute('src','idoso.png')
             res.innerHTML = `idoso ${genero} de ${idade} anos `
             res.appendChild(img)
            }
@@ -54,18 +55,31 @@ function resposta(){
           
        }else{
         genero = 'mulher'
-        
+        mod.style.height = 500 + 'px'
+        fundo.style.background = 'pink'
         if(idade < 10){
-            res.innerHTML = `crianca ${genero} de ${idade} anos `
+            
+            res.innerHTML = ` ${genero} criança de ${idade} anos `
+            img.setAttribute('src','cri_mulher.png')
+            res.appendChild(img)
 
            }else if(idade > 10 && idade < 18){
-            res.innerHTML = `adolescete ${genero} de ${idade} anos `
+            
+            res.innerHTML = ` ${genero} adolescente de ${idade} anos `
+            img.setAttribute('src','mulher_adolescente.png')
+            res.appendChild(img)
          
            }else if(idade > 17 && idade < 50){
-            res.innerHTML = `adulto ${genero} de ${idade} anos `
+
+            res.innerHTML = ` ${genero} adulta de ${idade} anos `
+            img.setAttribute('src','adulto_mulher.png')
+            res.appendChild(img)
            }else{
-            res.innerHTML = `idoso ${genero} de ${idade} anos `
-           }
+                        
+            res.innerHTML = ` ${genero} idoso de ${idade} anos `
+            img.setAttribute('src','idosa_mulher.png')
+            res.appendChild(img)
+        }
 
        }
 
