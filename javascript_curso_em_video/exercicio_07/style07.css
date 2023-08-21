@@ -39,9 +39,9 @@ h1{
 #relogio{
   width: 40%;
   padding: 80px 0px;
-  height: 300px;
+  height: 350px;
   text-align: center;
-  margin-left: 450px;
+  margin-left: 490px;
   border-radius: 10px;
   
 }
@@ -97,8 +97,8 @@ font-size: 20px;
 
   padding: 10px 10px;
   font-size: 23px;
-  margin-top: -60px;
-  margin-left: -300px;
+  margin-top: -80px;
+  margin-left: -380px;
 /*background-color: blue;*/
 }
 
@@ -109,4 +109,17 @@ font-size: 20px;
 
 #nome{
   font-size: 25px;
+}
+
+#selec{
+font-size: 20px;
+  padding: 10px 10px;
+}
+
+#limpando{
+  padding: 10px 30px;
+  margin-left: 350px;
+  margin-top: 5px;
+  font-size: 20px;
+
 }
