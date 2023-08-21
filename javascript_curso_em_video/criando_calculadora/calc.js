@@ -10,12 +10,15 @@ var  f = document.getElementById('cinco')
 var  g = document.getElementById('seis')
 var  h = document.getElementById('sete')
 
+
         function  mudar(num){    
         a.style.color = 'pink'
-        var val = document.getElementById('valorr').innerHTML;
+        var val = document.getElementById('valorr')
+        val.innerHTML += num
     
-        document.getElementById('valorr').innerHTML = val  + num
 
+      /*  document.getElementById('valorr').innerHTML = val  + num
+*/
 
     }
 
