@@ -15,10 +15,12 @@ if(inicio.value.length == 0 && innter.value.length == 0 && final.value.length ==
    var f = Number(final.value)
    var r = Number(innter.value)
    var fun = document.getElementById('relogio')
-   
-   
-   
-if(i<f){
+  
+   if(r <= 0){
+   res.innerHTML=' digite um numero maior que zero'
+   res.style.background = 'red'
+
+   }else if(i<f){
    
     do{
         res.innerHTML += `${i} \u{1f449}`
@@ -29,7 +31,7 @@ if(i<f){
     res.innerHTML += `\u{1f3c1}`
     fun.style.height = 500 +'px'
 
-}else{
+}else{ 
    
     do{ 
         
