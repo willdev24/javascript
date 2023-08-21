@@ -6,14 +6,15 @@ if( num.value.lenght == 0 ||Number(num.value) < 1){
 window.alert('ERRO!! digite um numero positivo ')
 
 }else{
-    var fundo = document.getElementById('relogio').style.height = 400 +'px'
+    var fundo = document.getElementById('relogio').style.height = 450 +'px'
     var valor = Number(num.value)
     var tabuada = document.querySelector('div.foto')
 
 for (let i = valor ; i == valor ; i++){
 for (let j=0 ; j < 10 ; j++){
 let p = i*(j + 1)
-            tabuada.innerHTML += `${i} x ${j +1} = ${p}<br>`
+
+tabuada.innerHTML += `${i} x ${j+1} =${p} <br>`
 }
 }
 

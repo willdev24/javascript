@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: slategrey;
+  background-color: rgb(0, 5, 10);
 
 }
 main h1{ text-align: center;
@@ -15,7 +15,12 @@ main h1{ text-align: center;
   font-size: 50px;
   
 
-}.container {
+}
+h1{
+  box-shadow: 5px 5px 10px rgb(247, 4, 145);
+}
+
+.container {
 
   margin-top: -100px;
   
