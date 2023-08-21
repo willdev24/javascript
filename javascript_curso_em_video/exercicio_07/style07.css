@@ -11,13 +11,13 @@ body{
 }
 main h1{ text-align: center;
   margin-top: 60px;
-  color: aliceblue;
+  color: rgb(238, 8, 207);
   font-size: 50px;
   
 
 }
 h1{
-  box-shadow: 5px 5px 10px rgb(247, 4, 145);
+  box-shadow: 5px 5px 10px rgb(4, 247, 4);
 }
 
 .container {
@@ -33,7 +33,7 @@ h1{
 
 #relogio{
   background-color: rgb(219, 219, 216);
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px rgb(25, 250, 4);
 }
 
 #relogio{
