@@ -29,7 +29,7 @@ window.alert('ERRO !! preencha os campos vazio')
         res.innerHTML +=  ` N${i+1} / 3 `
     }else{
         res.innerHTML +=  ` N${i+1} + `
-    
+        
     }
     
     }
